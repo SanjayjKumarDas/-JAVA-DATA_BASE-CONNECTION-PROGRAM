@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 import com.mysql.jdbc.Connection;
 
-public class DB_Connection {
+public class DBConnection {
 
 	public static Connection createConnection() throws ClassNotFoundException, SQLException {
 		Connection con = null;
